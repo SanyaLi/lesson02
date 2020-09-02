@@ -1,7 +1,16 @@
-package org.example;
+package com.company;
 
 public class Main {
+
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+
+        City myCity = new City();
+        City best = new City(400000,"Vilnus" );
+
+        myCity.PrintInfo();
+        System.out.println("_______________________________________________________________________");
+        best.PrintInfo();
     }
 }
+
+
